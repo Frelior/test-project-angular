@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  --dark-color: #1b1b1b;
+  --light-color: white;
+  --gray-color: #c8c8c8;
+  --primary-color: #bc00af;
+}
+
+body {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-family: "JetBrains Mono", monospace;
+}
+
+.h6 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+}
