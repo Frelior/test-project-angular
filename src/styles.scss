@@ -18,3 +18,13 @@ body {
   line-height: 24px;
   font-weight: 800;
 }
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 1%;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
